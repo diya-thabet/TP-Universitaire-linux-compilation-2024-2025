@@ -1,0 +1,13 @@
+EXERCICE 1 : 
+    //type de fichier ls -l => d: directory, l: link , prise (nsitha), -: fichier
+    *tube anonyme = pipe --anonyme car volatil 
+    *prise = tube nommé --
+
+    cette exercice permet la communication entre un processus pere et un processus fils. le pere ecrit la chaine bonjour dans un pipe (tube anonyme)
+    et le fils recupere cette chaine a partie de pipe et l'affiche 
+        -tube[0] est le descripteur en sortie (lecture seul)
+        -tube[1] est le descripteur en entrée (ecriture seul)
+
+EXERCICE 2: 
+    
+

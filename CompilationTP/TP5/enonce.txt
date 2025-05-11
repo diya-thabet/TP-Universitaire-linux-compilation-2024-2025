@@ -1,0 +1,1 @@
+ecrire un analyseur lexical qui verifie le bon paranthesage d'un text 

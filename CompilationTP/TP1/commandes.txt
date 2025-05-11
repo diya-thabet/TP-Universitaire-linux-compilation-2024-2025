@@ -1,0 +1,31 @@
+man gcc 
+
+man flex
+
+man bison 
+
+gedit fact.c
+
+gcc fact.c
+./a.out
+
+gcc fact.c -o test
+./test
+
+
+
+*********************************************
+etapes de compilation
+
+1-appel du preprocesseur cpp: (suprrime les commentaires, supp les espaces vide, inclu les directives includes) 
+2- appel du compilateur de cc1: (genere le fichier assembleur) 
+3- appel  de l'assembleur : (genere le fichier objet.o)
+4- appel de l'editeur des liens ld: (genere l'executable)
+
+
+options du gcc:
+--help 
+--version
+-E : appel uniquement le pre processeur  
+-S : appel au pre processeur et compilateur (fact.s)
+-c : appel preproc, compilateur et l'assembleur : produit le fichier objet (.o) binaire

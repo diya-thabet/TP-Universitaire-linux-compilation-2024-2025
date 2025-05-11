@@ -1,0 +1,11 @@
+%{ declaration des variables (code c)
+
+%} declaration de definition regulieres (na3to asemi elli n7ebbohom exemple lettres=[a-zA-Z])
+
+%% regle de traduction(obligatoire) --ExpressionReguliere {action en c/c++}
+
+%% bloc principal et fonctions auxiliaires 
+        main()
+        {
+            yylex(); // fonction y7ot feha traduction de lang c mte3 partie elli 9balha 
+        }

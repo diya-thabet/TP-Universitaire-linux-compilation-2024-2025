@@ -1,0 +1,5 @@
+ecrire une fnction qui calcule le produit de (i+3) par la racine carré de j
+
+- la somme i+3 ecrit dans un fichier f1.c 
+- la racine carré du j est realisé par la fonction  f2.c
+- le programe principale qui calcule f1(i)*f2(j) se trouve dans le fichier p1.c

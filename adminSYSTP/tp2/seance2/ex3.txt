@@ -1,0 +1,11 @@
+execlp(1 , 2)
+
+1:
+ref designe le chemin dun executable a partir de la variable d'environnment PATH
+
+2:
+les reste 2 represente la liste des argumaents.
+
+l'execution de l'une des primitive de la commande exec entraine l'ecrasement du code du procesus qui a lancé par le code executable specifiée en parametre de exec 
+(il n'ya execution que de ce qui est en parametre de exec )  
+
